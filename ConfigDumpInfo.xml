@@ -132,6 +132,7 @@
 			<Metadata name="CalculationRegister._ДемоОсновныеНачисления.Recalculation.ПерерасчетОсновныхНачислений.Dimension.ФизическоеЛицо" id="457dac10-a0dd-406c-a097-6dadda5e6d34"/>
 			<Metadata name="CalculationRegister._ДемоОсновныеНачисления.Recalculation.ПерерасчетОсновныхНачислений.Dimension.Организация" id="9e6b6e61-7c56-434d-9add-b2b926a9e3f7"/>
 		</Metadata>
+		<Metadata name="Catalog.GitHub" id="65d43e51-aa2c-4824-8559-5a3d3b4dfd04" configVersion="32fc132271c1a948ab548796b3ae86f700000000"/>
 		<Metadata name="Catalog._ДемоБанковскиеСчета" id="b4e1435c-482c-4e14-afee-045b1489fcd0" configVersion="ac043ae2a706ec1151990242ac11000200000000">
 			<Metadata name="Catalog._ДемоБанковскиеСчета.Attribute.ТелефоныБанкаДляРасчетов" id="0240eaef-7f63-4eee-b213-6c72d1b9cfed"/>
 			<Metadata name="Catalog._ДемоБанковскиеСчета.Attribute.АдресБанкаДляРасчетов" id="1ab05c1d-7e85-4ff3-8ed6-9d3d72716355"/>
@@ -5557,7 +5558,7 @@
 		<Metadata name="CommonTemplate.СоответствиеТэговОбщимФормам.Template" id="c8d797cf-e72c-4d99-bd6f-f4a8b0ca7c8d.0" configVersion="0afd04d5a706ec1151990242ac11000200000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности" id="7a62d031-c340-4b1e-90af-fff697a2e979" configVersion="581d1be2a706ec1151990242ac11000200000000"/>
 		<Metadata name="CommonTemplate.СтруктураПодчиненности.Template" id="7a62d031-c340-4b1e-90af-fff697a2e979.0" configVersion="445e0ad5a706ec1151990242ac11000200000000"/>
-		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо" id="66193438-abc5-410b-a1f1-a204102d1a62" configVersion="7cde0b89fce11d4d991ed8d7dd8e629a00000000"/>
+		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо" id="66193438-abc5-410b-a1f1-a204102d1a62" configVersion="3340fff1f455b240b9ef3e883bc66e0000000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ClientApplicationInterface" id="f389d417-7804-4810-a1c5-a13b3209ad71.b" configVersion="ae3c9fcfa706ec1151990242ac11000200000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.CommandInterface" id="f389d417-7804-4810-a1c5-a13b3209ad71.a" configVersion="da13cfd3a706ec1151990242ac11000200000000"/>
 		<Metadata name="Configuration.БиблиотекаСтандартныхПодсистемДемо.ExternalConnectionModule" id="f389d417-7804-4810-a1c5-a13b3209ad71.5" configVersion="5af09ecfa706ec1151990242ac11000200000000"/>
@@ -13244,7 +13245,7 @@
 		<Metadata name="Subsystem.АдминистрированиеСервиса.Subsystem.Сообщения" id="b0c18399-297a-4617-9d6e-3c02294ebd35" configVersion="00ec26e2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Subsystem.АдминистрированиеСервиса.Subsystem.Тарификация" id="69f8b7f9-a81b-4b6a-88f7-2f2dccc11717" configVersion="524f26e2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Subsystem.АдминистрированиеСервиса.Subsystem.Тарификация.CommandInterface" id="69f8b7f9-a81b-4b6a-88f7-2f2dccc11717.1" configVersion="240926d4a706ec1151990242ac11000200000000"/>
-		<Metadata name="Subsystem.Виселица" id="39b2ad24-b16a-46b9-a764-5fb9842d3d54" configVersion="7bd312a805847149a7d1cbaf5a25018400000000"/>
+		<Metadata name="Subsystem.Виселица" id="39b2ad24-b16a-46b9-a764-5fb9842d3d54" configVersion="1f46585e5cb1c84b9e7c66ecf998356a00000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей" id="0ff3ec4c-ae39-4f67-8e61-f5405c67c3bd" configVersion="b6d829e2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.БазоваяФункциональностьБИП" id="5cfa65ec-4676-4f8f-88d6-d9aefc9547ff" configVersion="3abd2fe2a706ec1151990242ac11000200000000"/>
 		<Metadata name="Subsystem.ИнтернетПоддержкаПользователей.Subsystem.ОбменДаннымиСВнешнимиСистемами" id="fc29d841-c199-4cfd-80b1-327e81e3da34" configVersion="301c2be2a706ec1151990242ac11000200000000"/>
