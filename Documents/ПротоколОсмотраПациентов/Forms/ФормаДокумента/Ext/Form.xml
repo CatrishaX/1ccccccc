@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Пациент" id="7">
+			<DataPath>Объект.Пациент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПациентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПациентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Возраст" id="10">
+			<DataPath>Объект.Возраст</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВозрастКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВозрастРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Номер1" id="13">
+			<DataPath>1/0:8bb51051-4868-48a6-9b0a-84e6e0273e04</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="Номер1КонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="Номер1РасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Палата" id="16">
+			<DataPath>Объект.Палата</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПалатаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ПалатаРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДатаИВремя" id="19">
+			<DataPath>1/0:c54b8fc8-1c3d-4c79-882a-60c9f229e93d</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаИВремяКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаИВремяРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Жалобы" id="22">
+			<DataPath>Объект.Жалобы</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЖалобыКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ЖалобыРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<InputField name="ОбщийСтатус" id="25">
+			<DataPath>Объект.ОбщийСтатус</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОбщийСтатусКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="ОбщийСтатусРасширеннаяПодсказка" id="27"/>
+		</InputField>
+		<InputField name="ДиагнозОсновной" id="28">
+			<DataPath>Объект.ДиагнозОсновной</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДиагнозОсновнойКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ДиагнозОсновнойРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="ДиагнозСопутствующий" id="31">
+			<DataPath>Объект.ДиагнозСопутствующий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДиагнозСопутствующийКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ДиагнозСопутствующийРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="НазначенияИРекомендации" id="34">
+			<DataPath>Объект.НазначенияИРекомендации</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НазначенияИРекомендацииКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="НазначенияИРекомендацииРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="Врач" id="37">
+			<DataPath>Объект.Врач</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВрачКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ВрачРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="ЗавОРИТ" id="40">
+			<DataPath>Объект.ЗавОРИТ</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЗавОРИТКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="ЗавОРИТРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<UsualGroup name="ГруппаЭлектронныеПодписи" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа электронные подписи</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа электронные подписи</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаЭлектронныеПодписиРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<Table name="ЭлектронныеПодписи" id="45">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>ЭлектронныеПодписи</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ЭлектронныеПодписиКонтекстноеМеню" id="46"/>
+					<AutoCommandBar name="ЭлектронныеПодписиКоманднаяПанель" id="47"/>
+					<ExtendedTooltip name="ЭлектронныеПодписиРасширеннаяПодсказка" id="48"/>
+					<SearchStringAddition name="ЭлектронныеПодписиСтрокаПоиска" id="49">
+						<AdditionSource>
+							<Item>ЭлектронныеПодписи</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЭлектронныеПодписиСтрокаПоискаКонтекстноеМеню" id="50"/>
+						<ExtendedTooltip name="ЭлектронныеПодписиСтрокаПоискаРасширеннаяПодсказка" id="51"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЭлектронныеПодписиСостояниеПросмотра" id="52">
+						<AdditionSource>
+							<Item>ЭлектронныеПодписи</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЭлектронныеПодписиСостояниеПросмотраКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="ЭлектронныеПодписиСостояниеПросмотраРасширеннаяПодсказка" id="54"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЭлектронныеПодписиУправлениеПоиском" id="55">
+						<AdditionSource>
+							<Item>ЭлектронныеПодписи</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ЭлектронныеПодписиУправлениеПоискомКонтекстноеМеню" id="56"/>
+						<ExtendedTooltip name="ЭлектронныеПодписиУправлениеПоискомРасширеннаяПодсказка" id="57"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ЭлектронныеПодписиКомуВыданСертификат" id="58">
+							<DataPath>ЭлектронныеПодписи.КомуВыданСертификат</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиКомуВыданСертификатКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиКомуВыданСертификатРасширеннаяПодсказка" id="60"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиДатаПодписи" id="61">
+							<DataPath>ЭлектронныеПодписи.ДатаПодписи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиДатаПодписиКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиДатаПодписиРасширеннаяПодсказка" id="63"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиКомментарий" id="64">
+							<DataPath>ЭлектронныеПодписи.Комментарий</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиКомментарийКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиКомментарийРасширеннаяПодсказка" id="66"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиСтатус" id="67">
+							<DataPath>ЭлектронныеПодписи.Статус</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиСтатусКонтекстноеМеню" id="68"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиСтатусРасширеннаяПодсказка" id="69"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиОбъект" id="70">
+							<DataPath>ЭлектронныеПодписи.Объект</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиОбъектКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиОбъектРасширеннаяПодсказка" id="72"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиАдресПодписи" id="73">
+							<DataPath>ЭлектронныеПодписи.АдресПодписи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиАдресПодписиКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиАдресПодписиРасширеннаяПодсказка" id="75"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиОтпечаток" id="76">
+							<DataPath>ЭлектронныеПодписи.Отпечаток</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиОтпечатокКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиОтпечатокРасширеннаяПодсказка" id="78"/>
+						</InputField>
+						<CheckBoxField name="ЭлектронныеПодписиПодписьВерна" id="79">
+							<DataPath>ЭлектронныеПодписи.ПодписьВерна</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЭлектронныеПодписиПодписьВернаКонтекстноеМеню" id="80"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиПодписьВернаРасширеннаяПодсказка" id="81"/>
+						</CheckBoxField>
+						<InputField name="ЭлектронныеПодписиУстановившийПодпись" id="82">
+							<DataPath>ЭлектронныеПодписи.УстановившийПодпись</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиУстановившийПодписьКонтекстноеМеню" id="83"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиУстановившийПодписьРасширеннаяПодсказка" id="84"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиАдресСертификата" id="85">
+							<DataPath>ЭлектронныеПодписи.АдресСертификата</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиАдресСертификатаКонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиАдресСертификатаРасширеннаяПодсказка" id="87"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиДатаПроверкиПодписи" id="88">
+							<DataPath>ЭлектронныеПодписи.ДатаПроверкиПодписи</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиДатаПроверкиПодписиКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиДатаПроверкиПодписиРасширеннаяПодсказка" id="90"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиПорядковыйНомер" id="91">
+							<DataPath>ЭлектронныеПодписи.ПорядковыйНомер</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиПорядковыйНомерКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиПорядковыйНомерРасширеннаяПодсказка" id="93"/>
+						</InputField>
+						<InputField name="ЭлектронныеПодписиОписаниеОшибки" id="94">
+							<DataPath>ЭлектронныеПодписи.ОписаниеОшибки</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЭлектронныеПодписиОписаниеОшибкиКонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="ЭлектронныеПодписиОписаниеОшибкиРасширеннаяПодсказка" id="96"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Button name="Подписать" id="97">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Подписать</CommandName>
+					<ExtendedTooltip name="ПодписатьРасширеннаяПодсказка" id="98"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПротоколОсмотраПациентов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ЭлектронныеПодписи" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Электронные подписи</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КомуВыданСертификат" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Автор подписи</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДатаПодписи" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата подписи</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="Комментарий" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Статус" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Объект" id="5">
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Column>
+				<Column name="АдресПодписи" id="6">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Отпечаток" id="7">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПодписьВерна" id="8">
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="УстановившийПодпись" id="9">
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Column>
+				<Column name="АдресСертификата" id="10">
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ДатаПроверкиПодписи" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата проверки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПорядковыйНомер" id="12">
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ОписаниеОшибки" id="13">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Описание ошибки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подписать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подписать</Action>
+		</Command>
+	</Commands>
+</Form>
